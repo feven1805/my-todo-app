@@ -1,21 +1,39 @@
-<<<<<<< HEAD
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
 # my-todo-app
-A simple React Todo List app
->>>>>>> 66b6bbaf401585679abba34d9eda6f5d47662809
+A simple Todo List application built with react and *vite.  
+This app allows users to add, view, and delete tasks dynamically.
+
+Task Overview
+
+Build a functional Todo List where users can:  
+- Add new tasks  
+- View all tasks  
+- Delete tasks  
+The goal is to practice React state management and event handling.
+
+Features Implemented
+
+- Add Tasks: Users can type a task and click "Add" to save it.  
+- Delete Tasks: Each task has a "Delete" button to remove it from the list.    
+- Styling: Simple CSS layout for readability.
+
+📊 Screenshots
+
+![Todo App Screenshot](./reactApp.png)
+
+ How to Run the Project
+
+1. Clone the project or download it to your local machine.  
+2. Open your terminal and navigate to the project folder.  
+3. Install dependencies:
+4. Start the development server:
+5. Open your browser and go to the URL shown in the terminal
+
+   Technologies Used
+
+React
+
+JavaScript (ES6+)
+
+Vite (fast development server)
+
+CSS (for styling)
